@@ -1,0 +1,56 @@
+docker build -t lukso-reaction-app2 .
+
+docker run -it --rm \
+-v $(pwd):/todo \
+-p 3000:3000 \
+--name lukso-reaction-app2 \
+lukso-reaction-app2 sh
+
+docker exec -it lukso-reaction-app2 sh
+
+https://docs.lukso.tech/learn/mini-apps/testing-miniapps/
+
+https://fnce-foundation.notion.site/Hack-The-Grid-18c8d1c8a2118073b928dc8de54e5e1a
+
+
+https://github.com/lukso-network/miniapp-vite-react-template/tree/main/src
+
+###############
+
+npm install -g localtunnel
+
+lt --port 3000 --subdomain huge-wings-knock-123-456-789
+
+https://loca.lt/
+
+https://loca.lt/mytunnelpassword
+
+##############
+https://universaleverything.io/
+
+##############
+
+ngrok config add-authtoken 2axX2sjX4IrioEdrETJDrIWu5cW_7wH452akYj4RvTXtkyr6w
+ngrok tunnel --label edge=edghts_2axaG17VMAQmvsMCy5ynCHUq8jv raspberrypi:3000
+
+docker run --rm -it \
+  --network host \
+  -e NGROK_AUTHTOKEN=2axX2sjX4IrioEdrETJDrIWu5cW_7wH452akYj4RvTXtkyr6w \
+  ngrok/ngrok:latest \
+  ngrok tunnel --help
+
+
+docker run --rm -it \
+  --network host \
+  -v $(pwd)/ngrok.yml:/etc/ngrok.yml \
+  -e NGROK_AUTHTOKEN=2axX2sjX4IrioEdrETJDrIWu5cW_7wH452akYj4RvTXtkyr6w \
+  ngrok/ngrok:latest \
+  ngrok start --config /etc/ngrok.yml mytunnel  
+
+
+0x5da5e7c7f8e125efa580223d0c55458e24e4eb97fb31777d33ea9228cfb52e1c  
+
+0x4adb3412FB6EeFBe33C51bffAa8Ba476A46D1FD6
+
+
+https://lukso.gitcoin.co/leaderboard
