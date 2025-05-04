@@ -14,7 +14,7 @@ This mini dApp challenges users to click the screen as quickly as possible when 
 
 ---
 
-## ⚙️ Smart Contract: [`RankingList.sol`](./smartcontract/contracts/SpeedRanking.sol)
+## ⚙️ Smart Contract: [`RankingList.sol`](./smartcontract/contracts/RankingList.sol)
 
 This contract handles:
 
@@ -23,6 +23,24 @@ This contract handles:
 * Minting LSP7 token-based NFTs as rewards
 * Managing leaderboard data
 * Transferring or updating NFT contracts
+
+---
+
+## 🧱 Architecture
+
+```mermaid
+graph LR
+    A[Frontend-NextJs] --> B[SpeedRanking.sol]
+    B -- mint --> C(LSP7-Gold Medal)
+    B -- mint --> D(LSP7-Sliver Medal)
+    B -- mint --> E(LSP7-Bronze Medal)
+    B --> F[Report Top 10]
+
+    style B fill:#f0f0f0,stroke:#333,stroke-width:1px
+    style C fill:#FFD700,stroke:#333,stroke-width:1px
+    style D fill:#C0C0C0,stroke:#333,stroke-width:1px
+    style E fill:#cd7f32,stroke:#333,stroke-width:1px
+```
 
 ---
 
