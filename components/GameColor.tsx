@@ -7,7 +7,7 @@ import styled from 'styled-components';
 const GameArea = styled.div<{ isGreen: boolean }>`
   height: 100vh;
   width : 150vh;
-  background-color: ${props => props.isGreen ? 'green' : 'red'};
+  background-color: ${props => props.isGreen ? 'blue' : 'red'};
   display: flex;
   align-items: center;
   justify-content: center;
