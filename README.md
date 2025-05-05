@@ -111,9 +111,7 @@ rankingList.mintWithSpeed{value: 0.01 ether}(reactionTime);
 
 ## 🌐 Access
 
-* **Testnet:** [universaleverything.io – Testnet View](https://universaleverything.io/0xDFb10b422f581907a6159f7618A3D98eE3F07F66?network=testnet&assetGroup=grid)
-* **Mainnet:** [universaleverything.io – Mainnet View](https://universaleverything.io/0xDFb10b422f581907a6159f7618A3D98eE3F07F66?network=mainnet&assetGroup=grid)
-
+* **Testnet:** [universaleverything.io – Testnet View](https://universaleverything.io/0xF062D792ad6B55679F0662bcFEd230AAf9Bf3644?network=testnet&assetGroup=grid)
 ---
 
 ## 📃 License
